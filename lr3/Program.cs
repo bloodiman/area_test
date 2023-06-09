@@ -12,7 +12,8 @@ namespace lr3
             Console.WriteLine("2. Круг");
             Console.WriteLine("3. Треугольник");
             Console.WriteLine("4. Трапеция");
-            //Console.WriteLine("5. Сектор");
+            Console.WriteLine("5. Сектор");
+            Console.WriteLine("6. Прямоугольный треугольник");
 
             string temp = Console.ReadLine();
             int variant = Convert.ToInt32(temp);    // преобразование в число
@@ -58,6 +59,41 @@ namespace lr3
                     double area = (topBase + bottomBase) * height / 2;
 
                     Console.WriteLine("Площадь трапеции = " + area);
+                    break;
+                case 5:
+                    
+                    Console.Write("Введите угол в градусах: ");
+                    double angleInDegrees = double.Parse(Console.ReadLine());
+
+           
+                    Console.Write("Введите радиус: ");
+                    double radius = double.Parse(Console.ReadLine());
+
+                    
+                    double angleInRadians = Math.PI * angleInDegrees / 180;
+
+                   
+                    double sectorArea = 0.5 * angleInRadians * Math.Pow(radius, 2);
+
+                    Console.WriteLine("Sector Area: " + sectorArea);
+
+
+
+                    break;
+                case 6:
+
+                    
+                    Console.Write("Введите длину: ");
+                    double baseLength = double.Parse(Console.ReadLine());
+
+                    Console.Write("Введите высоту: ");
+                    double qqq = double.Parse(Console.ReadLine());
+
+                    
+                    double www = 0.5 * baseLength * qqq;
+
+                    Console.WriteLine("Площадь прямоугольного треугольника: " + www);
+
                     break;
                 default: Console.WriteLine("Выбор неверен "); break;
             }
