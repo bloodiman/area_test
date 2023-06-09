@@ -11,8 +11,8 @@ namespace lr3
             Console.WriteLine("1. Прямоугольник");
             Console.WriteLine("2. Круг");
             Console.WriteLine("3. Треугольник");
-           // Console.WriteLine("4. Трапеция");
-           // Console.WriteLine("5. Сектор");
+            Console.WriteLine("4. Трапеция");
+            //Console.WriteLine("5. Сектор");
 
             string temp = Console.ReadLine();
             int variant = Convert.ToInt32(temp);    // преобразование в число
@@ -35,7 +35,8 @@ namespace lr3
                     Rad = Convert.ToDouble(temp);
                     Console.WriteLine("Площадь круга = " + 4 * Math.Atan(1.0) * Math.Pow(Rad, 2.0));
                     break;
-                case 3:
+
+                case 3: 
                     Console.Write("Высота А = ");
                     temp = Console.ReadLine();
                     a = Convert.ToDouble(temp);
@@ -44,14 +45,21 @@ namespace lr3
                     b = Convert.ToDouble(temp);
                     Console.WriteLine("Площадь треугольника = " + (a * b)/2);
                     break;
+                case 4:
+                    Console.Write("Основание A = ");
+                    double topBase = double.Parse(Console.ReadLine());
 
+                    Console.Write("Основание B = ");
+                    double bottomBase = double.Parse(Console.ReadLine());
+
+                    Console.Write("Высота h = ");
+                    double height = double.Parse(Console.ReadLine());
+
+                    double area = (topBase + bottomBase) * height / 2;
+
+                    Console.WriteLine("Площадь трапеции = " + area);
                     break;
-                   
-
                 default: Console.WriteLine("Выбор неверен "); break;
-
-                
-                    
             }
         }
     }
