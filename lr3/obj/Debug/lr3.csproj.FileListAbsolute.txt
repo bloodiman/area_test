@@ -1,0 +1,6 @@
+C:\Users\КТЛ191Вылегжанин\Desktop\Новая папка\area_test-master\lr3\obj\Debug\lr3.csprojAssemblyReference.cache
+C:\Users\КТЛ191Вылегжанин\Desktop\Новая папка\area_test-master\lr3\obj\Debug\lr3.csproj.CoreCompileInputs.cache
+C:\Users\КТЛ191Вылегжанин\Desktop\Новая папка\area_test-master\lr3\bin\Debug\lr3.exe
+C:\Users\КТЛ191Вылегжанин\Desktop\Новая папка\area_test-master\lr3\bin\Debug\lr3.pdb
+C:\Users\КТЛ191Вылегжанин\Desktop\Новая папка\area_test-master\lr3\obj\Debug\lr3.exe
+C:\Users\КТЛ191Вылегжанин\Desktop\Новая папка\area_test-master\lr3\obj\Debug\lr3.pdb
